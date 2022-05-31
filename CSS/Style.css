@@ -1,0 +1,626 @@
+header {
+  background-image: url(../img/hero-bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+nav a {
+  color: #fff !important;
+}
+
+.nav-line {
+  width: 50%;
+  height: 3px;
+  background-color: #fff;
+  margin-left: 10px;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.nav-line:hover {
+  opacity: 1;
+}
+
+.navbar-toggler-icon{
+  color: #fff !important;
+  display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+
+header h1 {
+  font-size: 72px;
+  font-weight: 600;
+  line-height: 86.4px;
+  font-variant: normal;
+  position: relative;
+  z-index: 1;
+}
+
+header p {
+  position: relative;
+  z-index: 1;
+}
+
+.header-layer {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  top: 0;
+  width: 100%;
+  position: absolute;
+}
+
+.bg-gray {
+  background-color: #f5f5f5;
+}
+
+.dropdown-item:hover,
+.deepdrop:hover {
+  color: blue !important;
+}
+
+.dropdown-submenu {
+  position: relative;
+}
+
+.hero-subtitle::after {
+  content: "";
+  position: relative;
+  animation-name: text;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+
+@keyframes text {
+  0% {
+    content: " D|";
+  }
+
+  1% {
+    content: " De|";
+  }
+
+  2% {
+    content: " Dev|";
+  }
+
+  3% {
+    content: " Deve|";
+  }
+
+  4% {
+    content: " Devel|";
+  }
+
+  5% {
+    content: " Develo|";
+  }
+
+  6% {
+    content: " Develop|";
+  }
+
+  7% {
+    content: " Develope|";
+  }
+
+  8% {
+    content: " Developer|";
+  }
+
+  14% {
+    content: " Developer|";
+  }
+
+  15% {
+    content: " Develope|";
+  }
+
+  16% {
+    content: " Develop|";
+  }
+
+  17% {
+    content: " Develo|";
+  }
+
+  18% {
+    content: " Devel|";
+  }
+
+  19% {
+    content: " Deve|";
+  }
+
+  20% {
+    content: " Dev|";
+  }
+
+  21% {
+    content: " De|";
+  }
+
+  22% {
+    content: " Des|";
+  }
+
+  23% {
+    content: " Desi|";
+  }
+
+  24% {
+    content: " Desig|";
+  }
+
+  25% {
+    content: " Design|";
+  }
+
+  26% {
+    content: " Designe|";
+  }
+
+  27% {
+    content: " Designer|";
+  }
+
+  32% {
+    content: " Designer|";
+  }
+
+  33% {
+    content: " Designe|";
+  }
+
+  34% {
+    content: " Design|";
+  }
+
+  35% {
+    content: " Desig|";
+  }
+
+  36% {
+    content: " Desi|";
+  }
+
+  37% {
+    content: " Des|";
+  }
+
+  38% {
+    content: " De|";
+  }
+
+  39% {
+    content: " D|";
+  }
+
+  40% {
+    content: " |";
+  }
+
+  41% {
+    content: " f|";
+  }
+
+  42% {
+    content: " fr|";
+  }
+
+  43% {
+    content: " fre|";
+  }
+
+  44% {
+    content: " free|";
+  }
+
+  45% {
+    content: " freel|";
+  }
+
+  46% {
+    content: " freela|";
+  }
+
+  47% {
+    content: " freelan|";
+  }
+
+  48% {
+    content: " freelanc|";
+  }
+
+  49% {
+    content: " freelance|";
+  }
+
+  50% {
+    content: " freelancer|";
+  }
+
+  56% {
+    content: " freelancer|";
+  }
+
+  57% {
+    content: " freelance|";
+  }
+
+  58% {
+    content: " freelanc|";
+  }
+
+  59% {
+    content: " freelan|";
+  }
+
+  60% {
+    content: " freela|";
+  }
+
+  61% {
+    content: " freel|";
+  }
+
+  62% {
+    content: " free|";
+  }
+
+  63% {
+    content: " fre|";
+  }
+
+  64% {
+    content: " fr|";
+  }
+
+  65% {
+    content: " f|";
+  }
+
+  66% {
+    content: " |";
+  }
+
+  67% {
+    content: "p|";
+  }
+
+  68% {
+    content: "ph| ";
+  }
+
+  69% {
+    content: "pho| ";
+  }
+
+  70% {
+    content: " phot|";
+  }
+
+  71% {
+    content: "photo|";
+  }
+
+  72% {
+    content: "photog| ";
+  }
+
+  73% {
+    content: " photogr|";
+  }
+
+  74% {
+    content: "photogra| ";
+  }
+
+  75% {
+    content: " photograp|";
+  }
+
+  76% {
+    content: " photograph|";
+  }
+
+  77% {
+    content: "photographe| ";
+  }
+
+  78% {
+    content: " photographer|";
+  }
+
+  83% {
+    content: " photographer|";
+  }
+
+  84% {
+    content: " photographe|";
+  }
+
+  85% {
+    content: " photograph|";
+  }
+
+  86% {
+    content: " photograp|";
+  }
+
+  87% {
+    content: " photogra|";
+  }
+
+  88% {
+    content: " photogr|";
+  }
+
+  89% {
+    content: " photog|";
+  }
+
+  90% {
+    content: " photo|";
+  }
+
+  91% {
+    content: " phot|";
+  }
+
+  92% {
+    content: " pho|";
+  }
+
+  93% {
+    content: " ph|";
+  }
+
+  94% {
+    content: " p|";
+  }
+
+  100% {
+    content: "|";
+  }
+
+
+}
+
+.lead {
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+.head-line {
+  font-size: 1.5rem;
+  position: relative;
+}
+
+.head-line::before {
+  content: "";
+  position: absolute;
+  height: 3px;
+  background-color: #0078ff;
+  width: 100px;
+  bottom: -12px;
+  margin-bottom: 7px;
+}
+
+.undr-line {
+  position: relative;
+}
+
+.undr-line::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  height: 3px;
+  background-color: #0078ff;
+  width: 40px;
+  bottom: -12px;
+  margin-bottom: 7px;
+
+}
+
+.icon{
+  border: solid #0078ff 5px;
+  border-radius: 50%;
+  padding: 20px;
+  background-color: #fff;
+  font-size: 30px;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  transition: all 500ms ease;
+}
+
+.icon:hover{
+  border-color: #cde1f8;
+  background-color: #0078ff;
+  color: white;
+}
+
+.statistics {
+  background-image: url(../img/counters-bg.jpg);
+  background-attachment: fixed;
+  background-position: left top;
+  background-size: cover;
+  position: relative;
+}
+
+.bg-light-blue {
+  background-color: #0078ff;
+  position: absolute;
+  top: 0;
+  left: 0px;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.7;
+}
+
+.statistics .icon{
+  background-color: transparent;
+  color: #fff;
+  border: #cde1f8 solid 5px;
+}
+
+.portofolio {
+  font-size: 0.8rem;
+}
+
+.portofolio img:hover , .image:hover {
+  transform: scale(1.2, 1.2);
+}
+
+.portofolio-img, .image {
+  transition: all 500ms;
+
+}
+
+
+
+.card {
+  overflow: hidden;
+}
+
+.portofolio-img:hover, .image:hover {
+  transform: scale(1.2, 1.2);
+
+}
+
+.plus-icon {
+  text-decoration: none;
+  border: solid #0078ff 3px;
+  color: #0078ff;
+  border-radius: 50%;
+  font-size: 30px;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.client, .Contact {
+  background-image: url(../img/overlay-bg.jpg);
+  background-attachment: fixed;
+  background-position: left top;
+  background-size: cover;
+  position: relative;
+}
+
+
+/* .carousel-item {
+  width: 50px;
+  height: 50px;
+} */
+.ball{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.carousel {
+  margin: auto;
+}
+
+.card-category-box {
+  position: absolute;
+  text-align: center;
+  top: -16px;
+  left: 15px;
+  right: 15px;
+  line-height: 25px;
+  overflow: hidden;
+}
+
+.card-body{
+  position: relative;
+}
+
+.btn-primary{
+  display: inline-block;
+  color: #fff;
+  padding: 0 15px 5px;
+  overflow: hidden;
+  background-color: #0078ff;
+  border-radius: 4px;
+}
+
+.card-title{
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  transition: all 500ms ease;
+}
+
+.card-title:hover{
+color: #0078ff;
+}
+
+small img{
+  width: 30px;
+  height: 30px;
+}
+
+small{
+  transition: color 500ms ease-in-out;
+}
+
+small:hover{
+  color: #0078ff;
+}
+
+.time{
+  font-size: 0.8rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-clock{
+margin: auto;
+}
+
+input , textarea{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.fa-brands {
+  border: solid #0078ff 3px;
+  border-radius: 50%;
+  padding: 20px;
+  background-color: #fff;
+  font-size: 20px;
+  width: 15px;
+  height: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px; 
+  transition: all 500ms ease;
+}
+
+.fa-brands:hover {
+  border-color: #cde1f8;
+  background-color: #0078ff;
+  color: white;
+}
+
+.about-text{
+  font-size: 0.75rem;
+}
